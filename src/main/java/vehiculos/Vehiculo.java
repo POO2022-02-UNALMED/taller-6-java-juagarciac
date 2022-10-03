@@ -22,7 +22,7 @@ public class Vehiculo {
 		this.puertas=puertas;
 		this.traccion=traccion;
 		this.velocidadMaxima=velocidad;
-	}
+	 }
 	
 	public String getPlaca() {
 		return this.placa;
