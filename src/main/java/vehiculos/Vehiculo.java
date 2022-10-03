@@ -122,4 +122,4 @@ public class Vehiculo {
 	public static String vehiculosPorTipo() {
 		return "Automoviles: "+Vehiculo.Auto()+"\nCamionetas: "+Vehiculo.camioneta()+"\nCamiones: "+Vehiculo.camion();
 	}
-	}
+}
