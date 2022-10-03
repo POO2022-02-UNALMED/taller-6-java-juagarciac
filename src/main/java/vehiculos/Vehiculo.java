@@ -14,7 +14,7 @@ public class Vehiculo {
 	static int Camionetas=0;
 	static int Camiones=0;
 	
-	Vehiculo(String placa,int puertas, int velocidad,String nombre,int precio,int peso,String traccion,Fabricante fabricante){
+	public Vehiculo(String placa,int puertas, int velocidad,String nombre,int precio,int peso,String traccion,Fabricante fabricante){
 		this.nombre=nombre;
 		this.peso=peso;
 		this.placa=placa;
@@ -22,6 +22,8 @@ public class Vehiculo {
 		this.puertas=puertas;
 		this.traccion=traccion;
 		this.velocidadMaxima=velocidad;
+		this.fabricante=fabricante;
+		fabricante.aparicion();
 	 }
 	
 	public String getPlaca() {
