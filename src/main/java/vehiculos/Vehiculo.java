@@ -123,4 +123,3 @@ public class Vehiculo {
 		return "Automoviles: "+Vehiculo.Auto()+"\nCamionetas: "+Vehiculo.camioneta()+"\nCamiones: "+Vehiculo.camion();
 	}
 }
-}
