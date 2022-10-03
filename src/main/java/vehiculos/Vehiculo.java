@@ -24,6 +24,7 @@ public class Vehiculo {
 		this.velocidadMaxima=velocidad;
 		this.fabricante=fabricante;
 		fabricante.aparicion();
+		Vehiculo.CantidadVehiculos+=1;
 	 }
 	
 	public String getPlaca() {
