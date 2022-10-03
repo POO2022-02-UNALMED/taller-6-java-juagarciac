@@ -48,7 +48,7 @@ public class Vehiculo {
 		this.velocidadMaxima=velocidad;
 	}
 	
-	public string getNombre() {
+	public String getNombre() {
 		return this.nombre;
 	}
 	
@@ -120,6 +120,6 @@ public class Vehiculo {
 	}
 	
 	public static String vehiculosPorTipo() {
-		return "Automoviles: "+Vehiculo.Auto()+"\nCamionetas: "+Vehiculo.Camioneta()+"\nCamiones: "+Vehiculo.Camion();
+		return "Automoviles: "+Vehiculo.Auto()+"\nCamionetas: "+Vehiculo.camioneta()+"\nCamiones: "+Vehiculo.camion();
 	}
 	}
