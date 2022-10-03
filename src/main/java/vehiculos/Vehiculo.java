@@ -84,7 +84,7 @@ public class Vehiculo {
 		return this.fabricante;
 	}
 	
-	public void setFabricante(Fabicante fabricante) {
+	public void setFabricante(Fabricante fabricante) {
 		this.fabricante=fabricante;
 	}
 	
@@ -120,6 +120,6 @@ public class Vehiculo {
 	}
 	
 	public static String vehiculosPorTipo() {
-		return "Automoviles: "+Vehiculo.Auto+"\nCamionetas: "+Vehiculo.Camioneta+"\nCamiones: "+Vehiculo.Camion;
+		return "Automoviles: "+Vehiculo.Auto()+"\nCamionetas: "+Vehiculo.Camioneta()+"\nCamiones: "+Vehiculo.Camion();
 	}
 	}
