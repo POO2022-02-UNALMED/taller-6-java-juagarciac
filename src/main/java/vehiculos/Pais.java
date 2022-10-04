@@ -28,7 +28,7 @@ public class Pais {
 	public static Pais paisMasVendedor() {
 		int p=0;
 		for(int i=0;i<Pais.numero.size();i++) {
-			if(Pais.numero.get(i).apariciones()<Pais.numero.get(p).apariciones()) {
+			if(Pais.numero.get(i).apariciones()>Pais.numero.get(p).apariciones()) {
 				p=i;
 			}
 		}

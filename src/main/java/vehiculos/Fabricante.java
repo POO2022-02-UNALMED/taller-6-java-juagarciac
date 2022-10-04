@@ -38,7 +38,7 @@ public class Fabricante {
 	public static Fabricante fabricaMayorVentas() {
 		int p=0;
 		for(int i=0;i<Fabricante.numero.size();i++) {
-			if(Fabricante.numero.get(i).aparicioness()<Fabricante.numero.get(p).aparicioness()) {
+			if(Fabricante.numero.get(i).aparicioness()>Fabricante.numero.get(p).aparicioness()) {
 				p=i;
 			}
 		}
