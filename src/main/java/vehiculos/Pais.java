@@ -22,16 +22,13 @@ public class Pais {
 	public void aparicion() {
 		this.apariciones+=1;
 	}
-	public int aparicioness() {
+	public int apariciones() {
 		return this.apariciones;
 	}
 	public static Pais paisMasVendedor() {
 		int p=0;
-		for(int i=0;i<Pais.numero.size()-1;i++) {
-			if(Pais.numero.get(i).aparicioness()<Pais.numero.get(i+1).aparicioness()) {
-				p=i+1;
-			}
-			else {
+		for(int i=0;i<Pais.numero.size();i++) {
+			if(Pais.numero.get(i).apariciones()<Pais.numero.get(p).apariciones()) {
 				p=i;
 			}
 		}
