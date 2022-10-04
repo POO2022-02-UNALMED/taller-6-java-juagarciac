@@ -9,6 +9,8 @@ public class Fabricante {
 	public Fabricante(String nombre,Pais pais) {
 		this.nombre=nombre;
 		this.pais=pais;
+		this.apariciones=0;
+		Fabricante.numero.add(this);
 	}
 	
 	public String getNombre() {
