@@ -32,13 +32,13 @@ public class Fabricante {
 		this.apariciones+=1;
 		this.pais.aparicion();
 	}
-	public int apariciones() {
+	public int aparicioness() {
 		return this.apariciones;
 	}
 	public static Fabricante fabricaMayorVentas() {
 		int p=0;
 		for(int i=0;i<Fabricante.numero.size()-1;i++) {
-			if(Fabricante.numero.get(i).apariciones()<Fabricante.numero.get(i+1).apariciones()) {
+			if(Fabricante.numero.get(i).aparicioness()<Fabricante.numero.get(i+1).aparicioness()) {
 				p=i+1;
 			}
 			else {
